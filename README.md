@@ -1,7 +1,7 @@
 # Azure E-Commerce Order Data ELT Pipeline
 
 An end-to-end, automated cloud data pipeline (ELT) built on Microsoft Azure. This project extracts synthetic e-commerce orders via a Python script, stages them securely in Azure Blob Storage, orchestrates data movement and transformation using Azure Data Factory (ADF), and loads clean analytical metrics into an Azure SQL Database fact table without duplication.
-
+> **Note:** This is a portfolio learning project and proof-of-concept (PoC) designed to explore and demonstrate end-to-end cloud data engineering concepts using Azure, Python, and SQL together.
 ---
 
 ## Architecture & Data Flow
