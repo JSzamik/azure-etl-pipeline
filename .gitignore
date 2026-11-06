@@ -1,0 +1,31 @@
+# Azure & Environment secrets 
+.env
+*.env
+appsettings.json
+local.settings.json
+*.publishsettings
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Dane tymczasowe i dane osobowe (RAW Data)
+data/raw/
+*.csv
+*.xlsx
+*.parquet
+*.json
+!data/sample_orders.csv  
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

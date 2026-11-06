@@ -1,0 +1,9 @@
+# Core data processing
+pandas>=2.0.0
+
+# Azure Blob Storage integration (if pushing CSV to cloud via Python)
+azure-storage-blob>=12.0.0
+
+# Database connectivity (if running scripts directly against Azure SQL)
+pyodbc>=4.0.0
+SQLAlchemy>=2.0.0
